@@ -13,12 +13,14 @@ body{
     gap: 1rem;
     padding: 2rem;
     justify-content: flex-end;
-    background-color: beige;
+    background-color: rgba(29, 29, 29, 0.904);
 
 }
 
 .navItem{
     list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
 
 }
 
@@ -39,7 +41,7 @@ img{
 }
 
 .profilePicContainer{
-    max-width: 40rem;
+    max-width: 30rem;
     min-width: 20rem;
     border-radius: 16px;
     box-shadow: 8px 4px 4px rgba(0, 0, 0, 0.8);
@@ -47,8 +49,8 @@ img{
 }
 
 .about-content{
-    max-width: 40rem;
-    min-width: 30rem;
+    max-width: 30rem;
+    min-width: 25rem;
 }
 
 #work{
@@ -59,7 +61,7 @@ img{
 }
 
 .bigImage{
-    max-width: 80rem;
+    max-width: 70rem;
     min-width: 30rem;
     
     box-shadow: 8px 4px 4px rgba(0, 0, 0, 0.8);
@@ -81,14 +83,14 @@ img{
 
 .info{
     position: absolute;
-    color: rgb(64, 64, 107);
+    color: rgba(58, 58, 165, 0.664);
     font-weight: 800;
     font-size: 2em;
     bottom: 10%;
     right: 84%;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
-    background-color: beige;
+    background-color: rgba(245, 245, 220, 0.986);
 }
 
 .info a{
@@ -126,7 +128,11 @@ img{
     position: relative;
 }
 
+#contact{
+    background-color: aqua;
+}
+
 footer{
     bottom: 0;
-    background-color: blue;
+    background-color:rgba(240, 248, 255, 0.788)
 }
