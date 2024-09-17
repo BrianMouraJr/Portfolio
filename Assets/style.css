@@ -24,6 +24,19 @@ body{
 
 }
 
+.navItemName{
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    text-align: left;
+
+
+}
+
 #about{
     display: flex;
     gap: 2rem;
@@ -129,10 +142,13 @@ img{
 }
 
 #contact{
-    background-color: aqua;
+    background-color: rgba(29, 29, 29, 0.904);
 }
 
-footer{
+.footerItem{
     bottom: 0;
-    background-color:rgba(240, 248, 255, 0.788)
+    color: blue;
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
 }
